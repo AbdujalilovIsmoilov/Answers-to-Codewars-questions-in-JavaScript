@@ -1,6 +1,7 @@
 "use strict";
 
 // 8-kyu: Issues-2
+// #### Unfinished Loop - Bug Fixing
 
 function createArray(number){
   let newArray = [];
@@ -14,5 +15,4 @@ function createArray(number){
 createArray(5);
 
 // #### Oh no, Timmy's created an infinite loop! Help Timmy find and fix the bug in his unfinished for loop!
-// #### Unfinished Loop - Bug Fixing
-// https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+// https://www.codewars.com/kata/55c28f7304e3eaebef0000da/train/javascript
