@@ -1,6 +1,7 @@
 "use strict";
 
 // 8-kyu: Issues-1
+// ### Even or Odd
 
 function evenOrOdd(number) {
   if (number % 2 == 0) {
