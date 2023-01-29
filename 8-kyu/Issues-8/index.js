@@ -8,7 +8,7 @@ function checkAlive(health) {
     return false
   } else {
     return true
-  }
+  }cle
 }
 checkAlive(0);
 
