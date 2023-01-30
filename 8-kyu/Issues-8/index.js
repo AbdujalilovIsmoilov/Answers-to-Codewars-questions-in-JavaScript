@@ -8,10 +8,9 @@ function checkAlive(health) {
     return false
   } else {
     return true
-  }cle
+  }
 }
 checkAlive(0);
-
 
 // ### While making a game, your partner, Greg, decided to create a function
 // ### to check if the user is still alive called checkAlive/CheckAlive/check_alive. 
