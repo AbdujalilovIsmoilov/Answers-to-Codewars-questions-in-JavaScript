@@ -1,25 +1,27 @@
 "use strict";
 
-// 7-kyu: Issues-1
-// #### The highest profit wins!
+// 7-kyu: Issues-2
+// #### Odd or Even?
 
-const minMax = arr => [Math.min(...arr), Math.max(...arr)];
-minMax([1, 2, 3, 4, 5]);
+const oddOrEven = (array) => array.reduce((a, b) => a + b, 0) % 2 == 0 ? "even" : "odd";
+oddOrEven([1, 2, 3, 4, 5]);
 
 /* 
 
-Ben has a very simple idea to make some profit: he buys something and sells it again. Of course, 
-this wouldn't give him any profit at all if he was simply to buy and sell it at the same price. Instead,
-he's going to buy it for the lowest possible price and sell it at the highest.
+Given a list of integers, determine whether the sum of its elements is odd or even.
+Give your answer as a string matching "odd" or "even".
+If the input array is empty consider it as: [0] (array with a zero).
 
-Task: Write a function that returns both the minimum and maximum number of the given list/array.
+Examples:
 
-Examples (Input --> Output)
+Input: [0]
+Output: "even"
 
-[1,2,3,4,5] --> [1,5]
-[2334454,5] --> [5,2334454]
-[1] --> [1,1]
+Input: [0, 1, 4]
+Output: "odd"
 
+Input: [0, -1, -5]
+Output: "even"
 */
 
-// https://www.codewars.com/kata/559590633066759614000063/train/javascript
+// https://www.codewars.com/kata/5949481f86420f59480000e7/train/javascript
